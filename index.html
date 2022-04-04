@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__container _container">
+
+		<nav class="header__nav">
+			<div class="header__menu">
+				<div class="header__logo">
+					<span>Fixit</span>
+				</div>
+				<div class="header__sections">
+					<a class="scrollto" href="#price">Узнать стоимость ремонта</a>
+					<a class="scrollto" href="#steps">Как происходит ремонт</a>
+					<a class="scrollto" href="#faq">Ответы на вопросы</a>
+				</div>
+				<div class="header__icons">
+					<a href="https://vk.com/"><img src="./img/icons/VK.png" alt=""></a>
+					<a href="https://www.instagram.com/"><img src="./img/icons/insta.png" alt=""></a>
+					<a href="https://www.youtube.com/"><img src="./img/icons/youtube.png" alt=""></a>
+				</div>
+				<div class="header__contacts">
+					<a class="header-contacts__numb">+375296645790</a>
+					<a class="header-contacts__numb">+375291815595</a>
+					<a class="header-contacts__text">Ежедневно с 8:00 до 23:00</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="header__content">
+
+			<div class="content__info">
+				<div class="content__h1">
+					<h1 class="content__text-h1">ремонт компьютеров <br>
+						в минске <span class="color__blue">за 90 минут</span><br>
+						<span class="color__blue">с гарантией</span> на 24 месяца
+					</h1>
+				</div>
+				<div class="content__h2">
+					<h2 class="content__text-h2">Решим проблему с техникой по фиксированной цене
+						<br>прямо в день вашего обращения
+					</h2>
+					<button class="content__btn style__btn open-popup">Починить компьютер</button>
+				</div>	
+			</div>
+
+			<div class="header__slider">
+				<div class="slider__wrapper">
+					<div class="slider__track">
+						<div class="slide active">
+							<img src="./img/slider/slide-one.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="./img/slider/slide_two.png" alt="">
+						</div>
+						<div class="slide">
+							<img src="./img/slider/slide_three.png" alt="">
+						</div>
+						<div id="prev__btn"></div>
+						<div id="next__btn"></div>
+					</div>
+				</div>
+				<div class="slider__dots">
+					<span class="dot active-dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="header__advantage">
+			<div class="advantage__block">
+				<div class="block__text">
+					<p class="text__basic">Бесплатная диагностика</p>
+					<p class="text__secondary">и выезд мастера</p>
+				</div>
+				<div class="advantage__img">
+					<img src="./img/icons/steklo.png" alt="">
+				</div>
+			</div>
+			<div class="advantage__block">
+				<div class="block__text">
+					<p class="text__basic">гарантии на работы</p>
+					<p class="text__secondary">от 14 дней до 2 лет</p>
+				</div>
+				<div class="advantage__img">
+					<img src="./img/icons/guarantee.png" alt="">
+				</div>
+			</div>
+			<div class="advantage__block">
+				<div class="block__text">
+					<p class="text__basic">предварительная оценка</p>
+					<p class="text__secondary">и стоимость по телефону
+					<p>
+				</div>
+				<div class="advantage__img">
+					<img src="./img/icons/phone.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+</header>
+
+
+
+
+			<main class="page">
+				<div class="main__container">
+	<!-- ================================================================================== -->
+	<!-- БЛОК С ЦЕНАМИ -->
+
+	<div class="price _container">
+
+		<div id="price" class="price__header">
+			<p class="price-header__text style__text"><span class="color__blue">не существует</span> ни одной компьютерной
+				<br> проблемы, которую мы бы не решили
+			</p>
+		</div>
+
+		<div class="price-list">
+			<div class="price-list__wrapper">
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/fire.png" alt="">
+						<p class="element__text">Системный блок <br> шумит и греется</p>
+						<p class="element__price">от 7р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/window.png" alt="">
+						<p class="element__text">Требуется <br> переустановить Windows</p>
+						<p class="element__price">от 7р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/power.png" alt="">
+						<p class="element__text">Компьютер не включается</p>
+						<p class="element__price">от 15р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/virus.png" alt="">
+						<p class="element__text">Напали вирусы <br> и вредоносные ПО</p>
+						<p class="element__price">от 5р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/slow.png" alt="">
+						<p class="element__text">Все ужасно тормозит</p>
+						<p class="element__price">от 9р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/folder.png" alt="">
+						<p class="element__text">Исчезли важные данные</p>
+						<p class="element__price">от 20р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/repair.png" alt="">
+						<p class="element__text">Требуется замена <br> клавиатуры на ноутбуке</p>
+						<p class="element__price">от 10р</p>
+					</div>
+				</div>
+				<div class="price-list__item">
+					<div class="price-list__element">
+						<img class="element__img" src="./img/icons/net__price/install.png" alt="">
+						<p class="element__text">Не устанавливаются <br> программы</p>
+						<p class="element__price">от 5р</p>
+					</div>
+				</div>
+				<div class="price-list-item__nine">
+					<div class="nine__item">
+						<img class="nine-item__img" src="./img/icons/net__price/computer.png" alt="">
+						<p class="nine-item__text">А так же куча других проблем, которые <br>
+							<strong> мы помогаем решить</strong> нашим клиентам...
+						</p>
+						<button class="item__btn style__btn  open-popup">Решить мою проблему</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- БЛОК С ЦЕНАМИ -->
+	<!-- ================================================================================== -->
+	<!-- КВИЗ -->
+
+	<div class="quiz">
+		<div class="quiz__bg img__bg">
+			<div class="quiz__opacity img-bg__opacity">
+				<div class="quiz__wrapper _container">
+					<div class="quiz__content">
+						<p class="quiz-content__text style__text">Ответьте на <span class="color__blue">5 простых
+								вопросов</span></p>
+						<p class="quiz-content__secondary-text">и узнайте примерную стоимость ремонта за 1 минуту</p>
+						<div class="quiz-content__discount">
+							<button class="discount__btn style__btn">Пройти тест</button>
+							<p class="discount__text"><span class="discount__plus color__blue">+</span> Получить скидку 20% на
+								первый ремонт</p>
+						</div>
+					</div>
+					<div class="quiz__img">
+						<a href=""><img src="./img/imac.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- КВИЗ -->
+	<!-- ================================================================================== -->
+	<!-- ПРЕИМУЩЕСТВА -->
+
+	<div class="excellence">
+		<div class="excellence__wrapper _container">
+			<div class="excellence__title">
+				<p class="excellence-title__text style__text"><span class="color__blue">90% компьютерных мастеров</span>
+					выдумывает
+					лишние <br> проблемы и вытягивают из вас деньги</p>
+			</div>
+			<div class="excellence__content">
+				<div class="excellence-content__wrapper">
+					<div class="excellence-content__element">
+						<div class="excellence-content__advantage">
+							<p class="advantage__title">заранее обговариваем стоимость</p>
+							<p class="advantage__basic">Называем точную цену еще на этапе диагностики. Работаем по
+								фиксированному
+								прайсу без плавающих цифр. После выполненных работ вы ни за что не доплачиваете.</p>
+						</div>
+						<div class="excellence-content__image">
+							<img class="advantage__img" src="./img/meshok_s_$.png" alt="">
+						</div>
+					</div>
+					<div class="excellence-content__element">
+						<div class="excellence-content__advantage">
+							<p class="advantage__title">не придумываем новые проблемы</p>
+							<p class="advantage__basic">Ведем чистую и прозрачную работу. Исправляем конкретно то, что служит
+								причиной проблемы. Не создаем иллюзию тяжелого случая. А все услуги оказываем только по
+								согласованию с вами.</p>
+						</div>
+						<div class="excellence-content__image">
+							<img class="advantage__img" src="./img/!!!.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="excellence__btn">
+				<button class="style__btn  open-popup">Узнать стоимость услуг</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- ПРЕИМУЩЕСТВА -->
+	<!-- ================================================================================== -->
+	<!-- ПОМОЩЬ ЗА 4 ШАГА -->
+
+	<div id="steps" class="help">
+		<div class="help__wrapper _container">
+			<div class="help__title-text">
+				<p class="help__text style__text">получите компьютерную помощь за <span class="color__blue"> 4 легких
+						шага</span></p>
+			</div>
+			<div class="help__steps">
+				<div class="steps__box">
+					<img class="steps__img" src="./img/step1.png" alt="">
+					<p class="steps__text"><strong>По телефону даем <br> предварительную оценку. <br></strong> Выясняем
+						проблему и определяем <br>
+						стоимость решения</p>
+				</div>
+				<div class="steps__box">
+					<img class="steps__img" src="./img/step2.png" alt="">
+					<p class="steps__text"><strong>Выбираем дату и время для выезда <br>
+							мастера.</strong> Доедем в любую точку <br>
+						города даже в день обращения.</p>
+				</div>
+				<div class="steps__box">
+					<img class="steps__img" src="./img/step3.png" alt="">
+					<p class="steps__text"><strong>Мастер приезжает к вам</strong> и проводит <br>
+						быструю диагностику для точного <br>
+						определения проблемы.</p>
+				</div>
+				<div class="steps__box">
+					<img class="steps__img" src="./img/step4.png" alt="">
+					<p class="steps__text"><strong>Ремонт и решение</strong> вашей проблемы <br>
+						за 40-60 минут.</p>
+				</div>
+			</div>
+			<div class="help__btn">
+				<button class="style__btn  open-popup">Получить помощь</button>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ПОМОЩЬ ЗА 4 ШАГА -->
+	<!-- ================================================================================== -->
+	<!-- СТАТИСТИКА -->
+
+	<div class="statistics">
+		<div class="statistics__bg">
+			<div class="statistics__wrapper _container">
+				<div class="statistics__text">
+					<p class="statistics-text__h1 style__text">привыкли <span class="color__blue"> доверять цифрам.</span>
+					</p>
+					<p class="statistics-text__h1 style__text">они говорят за нас</p>
+				</div>
+				<div class="statistics__element">
+					<div class="statistics-element__item">
+						<p class="element-item__num"><span class="color__blue">20%</span></p>
+						<p class="element-item__descript">скидка на <br>1-е обращение</p>
+					</div>
+					<div class="statistics-element__item">
+						<p class="element-item__num"><span class="color__blue">6</span></p>
+						<p class="element-item__descript">лет опыта <br>за плечами</p>
+					</div>
+					<div class="statistics-element__item">
+						<p class="element-item__num"><span class="color__blue">5</span></p>
+						<p class="element-item__descript">профессионалов <br>в команде</p>
+					</div>
+					<div class="statistics-element__item">
+						<p class="element-item__num"><span class="color__blue">4%</span></p>
+						<p class="element-item__descript">обращений <br>по гарантиям</p>
+					</div>
+				</div>
+				<div class="statistics-text__h2">
+					<p><span class="color__blue">800+</span> компьютеров отремонтировано нами</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- СТАТИСТИКА -->
+	<!-- ================================================================================== -->
+	<!-- АККОРДЕОН -->
+
+	<div id="faq" class="accordion ">
+		<div class="accordion__wrapper _container">
+			<div class="accordion__title">
+				<p class="title__text style__text">ЧТО ЕЩЕ <span class="color__blue">НУЖНО ЗНАТЬ:</span></p>
+			</div>
+			<div class="accordion__item">
+				<div class="accordion-item__element">
+					<div class="accordion-item__box">
+						<p class="element__explicit">Оригинальные запчасти и лицензионные программы</p>
+						<div class="explicit__indicator">+</div>
+					</div>
+					<p class="element__emerging">По вашему желанию подбираем только оригинальные запчасти от
+						производителей, а так же качественное лицензионное программное обеспечение.</p>
+				</div>
+				<div class="accordion-item__element">
+					<div class="accordion-item__box">
+						<p class="element__explicit">Все необходимые инструменты</p>
+						<div class="explicit__indicator">+</div>
+					</div>
+					<p class="element__emerging">Наши мастера имеют при себе все необходимые нструменты, что бы устранить
+						большинство проблем по адресу клиента.</p>
+				</div>
+				<div class="accordion-item__element">
+					<div class="accordion-item__box">
+						<p class="element__explicit">Гарантия по договору</p>
+						<div class="explicit__indicator">+</div>
+					</div>
+					<p class="element__emerging">На все виды работ от 14 дней до 2 лет. Так же, гарантии на комплектующие
+						детали от самих производителей.</p>
+				</div>
+				<div class="accordion-item__element">
+					<div class="accordion-item__box">
+						<p class="element__explicit">Выезд в день обращения</p>
+						<div class="explicit__indicator">+</div>
+					</div>
+					<p class="element__emerging">По вашему желанию мастер приедет в течении часа.</p>
+				</div>
+				<div class="accordion-item__element">
+					<div class="accordion-item__box">
+						<p class="element__explicit">Оказываем дополнительные услуги</p>
+						<div class="explicit__indicator">+</div>
+					</div>
+					<p class="element__emerging">При необходимости в сложном ремонте бесплатно забираем и доставляем вашу
+						технику прямо в руки.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- АККОРДЕОН -->
+	<!-- ================================================================================== -->
+	<!-- ПОДАРКИ -->
+
+	<div class="presents">
+		<div class="presents__bg img__bg">
+			<div class="presents__wrapper img-bg__opacity">
+				<div class="presents__form _container">
+					<div class="presents-form__title">
+						<p class="title__h1 style__text"> <span class="color__blue">дарим подарки</span> всем нашим клиентам
+						</p>
+						<p class="title__h2">Оставьте заявку прямо сейчас и <strong>получите скидку 20% и установку антивируса
+								в подарок</strong></p>
+					</div>
+					<div class="presents-form__form">
+						<form name="main" class="form__elements" action="#">
+							<input class="form-elements__input" name="inputName" type="tel" placeholder="Как к Вам обращаться?"
+								maxlength="20">
+							<input class="form-elements__input" name="inputPhone" type="tel" placeholder="Ваш номер телефона.."
+								maxlength="20">
+							<button class="form-elements__btn style__btn">Решить проблемы</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ПОДАРКИ -->
+	<!-- ================================================================================== -->
+	<!-- КОНТАКТЫ -->
+
+	<div class="contacts">
+		<div class="contacts__wrapper _container">
+			<div class="contacts__titile">
+				<p class="contacts__text style__text">наши контакты</p>
+			</div>
+			<div class="contacts__content">
+				<div class="content__information">
+					<p class="information__contacts content-information__style">телефон:</p>
+					<p class="information__numb-one">+375296645790</p>
+					<p class="information__numb-two">+375291815595</p>
+					<p class="information__adress content-information__style">адрес:</p>
+					<p class="address__street">г. Минск, ул. Космонавтов, 3/1.</p>
+					<p class="information__social-network content-information__style">мы в социальных сетях:</p>
+					<div class="social-network">
+						<div class="social-network__icons">
+							<div class="icons__item">
+								<a href="https://vk.com/"><img src="./img/icons/VK.png" alt=""></a>
+								<a href="https://www.instagram.com/"><img src="./img/icons/Insta.png" alt=""></a>
+								<a href="https://www.youtube.com/"><img src="./img/icons/youtube.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contacts__map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.404972482255!2d27.4715019158265!3d53.85344638008844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd080d507fc55%3A0x86777eec88a386a9!2z0YPQuy4g0JrQvtGB0LzQvtC90LDQstGC0L7QsiAzLzEsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1642674406881!5m2!1sru!2sby"
+						width="100%" height="350" style="border:0;" style="width:100%;" allowfullscreen=""
+						loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- КОНТАКТЫ -->
+	<!-- ================================================================================== -->
+</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__wrapper ">
+		<div class="footer__content _container">
+			<div class="footer-content__logo">
+				<p>Fixit</p>
+			</div>
+			<div class="footer-content__developer">
+				<p>Разработка: Тимур Гайдаров</p>
+			</div>
+			<div class="footer-content__protection">
+				<p>Все права защищены © 2022</p>
+			</div>
+		</div>
+	</div>
+</footer>
+		</div>
+		<div class="popup">
+	<div class="popup__bg">
+		<a href="#" class="close-popup"></a>
+		<div class="popup__body">
+			<div class="content__title">
+				<h1 class="title__h1">Оставить заявку</h1>
+				<h2 class="title__h2">Специалист свяжется с Вами <br> в течении 15 минут</h2>
+			</div>
+			<div class="content__form">
+				<form name="main" class="" action="#">
+					<div>
+						<input class="form__input" name="inputName" type="tel" placeholder="Как к Вам обращаться?"
+							maxlength="20">
+					</div>
+					<div>
+						<input class="form__input" name="inputPhone" type="tel" placeholder="Ваш номер телефона.."
+							maxlength="20">
+					</div>
+					<div>
+						<button class="form__btn">Решить проблемы</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+
+
+
+	</body>
+</html>
+
